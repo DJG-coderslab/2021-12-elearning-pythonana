@@ -29,4 +29,7 @@ a = (0, 1, 2, 3)
 b = [2, 3, 4, 5]
 
 # set[int]: with every second element from `a` and `b`
-result = ...
+result = set(a)
+result.update(set(b))
+result = {x for x in result if x % 2 == 0}
+

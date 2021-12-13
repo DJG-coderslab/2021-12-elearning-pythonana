@@ -57,13 +57,14 @@ DATA = [
 ]
 
 # list[list|tuple|set]: empty list
-result = ...
+result = []
 
 # append row from DATA at index 2
-...
+result.append(DATA[2])
 
 # append row from DATA at index 4
-...
+result.append(DATA[4])
 
 # append row from DATA at index -2
-...
+result.append(DATA[-2])
+

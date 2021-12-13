@@ -38,4 +38,5 @@ Tests:
 NAME = 'Mark Watney'
 
 # str: with Hello NAME
-result = ...
+result = f"Hello {NAME}"
+

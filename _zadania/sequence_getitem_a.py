@@ -50,4 +50,5 @@ DATA = [
 ]
 
 # tuple[str]: header from `DATA` (row with index 0)
-result = ...
+result = DATA[0]
+

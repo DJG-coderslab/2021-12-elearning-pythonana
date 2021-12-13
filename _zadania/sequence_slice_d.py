@@ -62,7 +62,8 @@ DATA = [
 
 
 # tuple[str]: with row at index 0 from DATA
-header = ...
+header = DATA[0]
 
 # list[tuple]: with rows at all the other indexes from DATA
-data = ...
+data = DATA[1:]
+

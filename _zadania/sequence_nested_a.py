@@ -38,4 +38,9 @@ Tests:
 
 # list[tuple|list|set]: with tuple 1, 2, 3 and list 1.1, 2.2, 3.3
 # and set 'Mark Watney', 'Melissa Lewis', 'Jan Twardowski'
-result = ...
+
+my_list = [1.1, 2.2, 3.3]
+my_tuple = 1, 2, 3
+my_set = {'Mark Watney', 'Melissa Lewis', 'Jan Twardowski'}
+result = [my_tuple, my_list, my_set]
+

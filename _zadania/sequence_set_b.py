@@ -76,28 +76,31 @@ DATA = ['sepal_length,sepal_width,petal_length,petal_width,species',
         '6.4,3.2,4.5,1.5,versicolor']
 
 # set[float|str]: with row at DATA[1] (manually converted to float and str)
-result = ...
+result = {5.8, 2.7, 5.1, 1.9, 'virginica'}
 
 # add to result float 5.1
-...
+result.add(5.1)
 
 # add to result float 3.5
-...
+result.add(3.5)
 
 # add to result float 1.4
-...
+result.add(1.4)
 
 # add to result float 0.2
-...
+result.add(0.2)
 
 # add to result str setosa
-...
+result.add('setosa')
 
 # update result with set 5.7, 2.8, 4.1, 1.3, 'versicolor'
-...
+r3 = {5.7, 2.8, 4.1, 1.3, 'versicolor'}
+result.update(r3)
 
 # update result with tuple 6.3, 2.9, 5.6, 1.8, 'virginica'
-...
+r4 = 6.3, 2.9, 5.6, 1.8, 'virginica'
+result.update(r4)
 
 # update result with list 6.4, 3.2, 4.5, 1.5, 'versicolor'
-...
+r5 = [6.4, 3.2, 4.5, 1.5, 'versicolor']
+result.update(r5)

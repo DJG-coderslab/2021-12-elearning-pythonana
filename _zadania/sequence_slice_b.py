@@ -35,4 +35,6 @@ TEXT = 'We choose to go to the Moon!'
 REMOVE = 'to go to '
 
 # str: TEXT without REMOVE part
-result = ...
+idx = TEXT.find(REMOVE)
+result = TEXT[:idx] + TEXT[idx + len(REMOVE):]
+

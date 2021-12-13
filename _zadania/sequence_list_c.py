@@ -48,11 +48,13 @@ b = [7.0, 3.2, 4.7, 1.4, 'versicolor']
 c = [7.6, 3.0, 6.6, 2.1, 'virginica']
 
 # insert at the beginning of `a` letter 'x'
-...
+a.insert(0, 'x')
 
 # append to the `b` last element popped from `a`
 # for getting elements use `list.pop()`
-...
+b.append(a.pop(len(a)-1))
 
 # from list `c` using `del` delete last element
-...
+
+del c[len(c)-1]
+

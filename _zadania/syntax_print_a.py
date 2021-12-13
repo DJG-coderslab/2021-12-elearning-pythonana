@@ -34,4 +34,6 @@ Tests:
 """
 
 # str: with Hello and World in separate lines
-result = ...
+result = '''Hello
+World'''
+

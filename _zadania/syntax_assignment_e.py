@@ -22,4 +22,5 @@ Tests:
 """
 
 # NoneType: with value None
-result = ...
+result = None
+
