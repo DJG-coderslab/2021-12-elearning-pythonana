@@ -73,19 +73,19 @@ HOUR = 60 * MINUTE
 DAY = 24 * HOUR
 
 # int: 1 day in seconds
-day = ...
+day = DAY
 
 # int: 7 days in minutes
-week = ...
+week = 7 * 24 * 60
 
 # int: 31 days in hours
-month = ...
+month = 31 * 24
 
 # int: 8 hours in seconds
-workday = ...
+workday = 8 * HOUR
 
 # int: 5 workdays in minutes
-workweek = ...
+workweek = 5 * 8 * 60
 
 # int: 22 workdays in hours
-workmonth = ...
+workmonth = 22 * 8

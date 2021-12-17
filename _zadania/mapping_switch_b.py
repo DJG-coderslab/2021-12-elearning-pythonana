@@ -65,7 +65,7 @@ PL = {'ą': 'a', 'ć': 'c', 'ę': 'e',
       'ś': 's', 'ż': 'z', 'ź': 'z'}
 
 # str: with letter from user
-letter = ...
+letter = input('Daj literę').lower()
 
 # str: with converted letter without PL diacritic chars
-result = ...
+result = PL.get(letter, letter)

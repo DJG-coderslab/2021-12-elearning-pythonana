@@ -84,7 +84,7 @@ ALPHABET = {
 }
 
 # str: with letter from user
-letter = ...
+letter = {k: v for k, v in ALPHABET.items()}
 
 # str: with converted letter to Pilot alphabet or 'Not found'
-result = ...
+result = letter.get(input('Daj M'), "Not found")

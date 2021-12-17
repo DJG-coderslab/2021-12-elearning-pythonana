@@ -28,4 +28,4 @@ Tests:
 DATA = 'UL. pana \tTWArdoWskIEGO 3'
 
 # str: Jana Twardowskiego III
-result = ...
+result = DATA.replace('UL. ', '').replace('\t', '').upper().title().replace('3', 'III')

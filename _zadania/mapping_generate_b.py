@@ -40,4 +40,4 @@ Tests:
 DATA = ['setosa', 'versicolor', 'virginica']
 
 # dict[int,str]: enumerated DATA to dict
-result = ...
+result = {i: x for i, x in enumerate(DATA)}

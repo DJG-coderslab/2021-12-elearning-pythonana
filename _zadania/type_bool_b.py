@@ -58,39 +58,39 @@ Tests:
 """
 
 # bool: the expression result must be True
-a = True == ...
+a = True == True
 
 # bool: the expression result must be True
-b = True != ...
+b = True != False
 
 # bool: the expression result must be False
-c = not ...
+c = not True
 
 # bool: the expression result must be True
-d = bool(...) == True
+d = bool(True) == True
 
 # bool: the expression result must be True
-e = bool(...) == False
+e = bool(False) == False
 
 # bool: the expression result must be False
-f = ... or ...
+f = False or False
 
 # bool: the expression result must be True
-g = ... and ...
+g = True and True
 
 # bool: the expression result must be True
-h = bool(bool(...) == ...) or False
+h = bool(bool(True) == True) or False
 
 # bool: the expression result must be False
-i = bool(...) is not bool(False)
+i = bool(False) is not bool(False)
 
 # Solution
-a = True == True
-b = True != False
-c = not True
-d = bool(True) == True
-e = bool(False) == False
-f = False or False
-g = True and True
-h = bool(bool(False) == False) or False
-i = bool(False) is not bool(False)
+# a = True == True
+# b = True != False
+# c = not True
+# d = bool(True) == True
+# e = bool(False) == False
+# f = False or False
+# g = True and True
+# h = bool(bool(False) == False) or False
+# i = bool(False) is not bool(False)

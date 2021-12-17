@@ -55,4 +55,4 @@ KEYS = ['Sepal length', 'Sepal width', 'Petal length',
 VALUES = [5.8, 2.7, 5.1, 1.9, 'virginica']
 
 # dict[str,float|str]: zipped KEYS and VALUES to dict
-result = ...
+result = {x: y for x, y in zip(KEYS, VALUES)}

@@ -81,13 +81,14 @@ DATA = ['sepal_length,sepal_width,petal_length,petal_width,species',
         '6.4,3.2,4.5,1.5,versicolor']
 
 # float: arithmetic mean from tuple with 5.8, 5.1, 5.7, 6.3, 6.4
-sepal_length = ...
+sepal_length = (5.8 + 5.1 + 5.7 + 6.3 + 6.4) / 5
 
 # float: arithmetic mean from tuple with 2.7, 3.5, 2.8, 2.9, 3.2
-sepal_width = ...
+sepal_width = (2.7 + 3.5 + 2.8 + 2.9 + 3.2) / 5
 
 # float: arithmetic mean from tuple with 5.1, 1.4, 4.1, 5.6, 4.5
-petal_length = ...
+petal_length = (5.1 + 1.4 + 4.1 + 5.6 + 4.5) / 5
 
 # float: arithmetic mean from tuple with 1.9, 0.2, 1.3, 1.8, 1.5
-petal_width = ...
+petal_width = (1.9 + 8.2 + 1.3 + 1.8 + 1.5) / 5
+

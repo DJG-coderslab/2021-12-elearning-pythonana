@@ -103,28 +103,28 @@ example = EXAMPLE.upper().replace('UL. ', '').replace('\t', '') \
     .strip().title().replace('3', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-a = ...
+a = A.upper()[3:].title().replace('Iii', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-b = ...
+b = B[5:].replace('trzeciego', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-c = ...
+c = C.replace('ulica', '')
 
 # str: expected string is 'Pana Twardowskiego III'
-d = ...
+d = D.upper().replace('\n', '').title().replace('3', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-e = ...
+e = E.replace('UL. ', '').upper().title().replace('Iii', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-f = ...
+f = F.replace('ULICA ', '').upper().title().replace('Iii', 'III').strip()
 
 # str: expected string is 'Pana Twardowskiego III'
-g = ...
+g = G.replace('ULICA. ', '').lower().title().replace('Iii', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-h = ...
+h = H.strip().replace('3', 'III')
 
 # str: expected string is 'Pana Twardowskiego III'
-i = ...
+i = I.replace('\t', ' ').strip()

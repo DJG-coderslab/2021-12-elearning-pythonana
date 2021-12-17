@@ -55,10 +55,10 @@ m = 1
 km = 1000 * m
 
 # int: 100_000 meters in km
-karman_line_earth = ...
+karman_line_earth = 100_000 // 1000
 
 # int: 80_000 meters in km
-karman_line_mars = ...
+karman_line_mars = 80_000 // 1000
 
 # int: 250_000 meters in km
-karman_line_venus = ...
+karman_line_venus = 250_000 // 1000
